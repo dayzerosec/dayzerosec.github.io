@@ -2,12 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dayzerosec.com/</id>
     <title>DAY[0]</title>
-    <updated>2020-05-26T02:13:15.091Z</updated>
+    <updated>2020-05-26T22:01:04.552Z</updated>
     <generator>Gridsome Feed Plugin</generator>
     <link rel="alternate" href="https://dayzerosec.com/"/>
     <link rel="self" href="https://dayzerosec.com/feed.atom"/>
     <subtitle>Zero Days for Day Zero</subtitle>
     <logo>https://dayzerosec.com/zero_square.png</logo>
+    <entry>
+        <title type="html"><![CDATA[Episode 43 - Zoom E2E, 15 year old bugs, and killing 20 year old attacks]]></title>
+        <id>https://dayzerosec.com/posts/episode-43/</id>
+        <link href="https://dayzerosec.com/posts/episode-43/"/>
+        <updated>2020-05-26T22:00:00.000Z</updated>
+        <content type="html"><![CDATA[A quick chat about E2E Crypto and Zoom, followed by a few noteworth exploits including Bluetooth impersonation, a 15-year old qmail CVE, NordVPN, and an RCE in Google. Ending with some mitigation research looking at making singlely linked lists safe, XSS prevention, and Code-Reuse Gadgets.]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Adventures of porting MUSL to PS4]]></title>
         <id>https://dayzerosec.com/posts/adventures-of-porting-musl-to-ps4/</id>
@@ -184,12 +191,5 @@ some side discussion about stuff like whether o]]></content>
         <link href="https://dayzerosec.com/posts/episode-20/"/>
         <updated>2019-12-10T23:00:00.000Z</updated>
         <content type="html"><![CDATA[Permanent Android DoS vulnerability, snooping on VPN traffic, value of anti-viruses, contact-less payment vulnerabilities, and more in this episode of DAY[0]]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Episode 20 - CWE Top 25, Hacking Anti-Viruses and Adversarial Machine Learning Attacks]]></title>
-        <id>https://dayzerosec.com/posts/episode-20-cwe-top-25-hacking-anti-viruses-and-adversarial-machine-learning-attacks/</id>
-        <link href="https://dayzerosec.com/posts/episode-20-cwe-top-25-hacking-anti-viruses-and-adversarial-machine-learning-attacks/"/>
-        <updated>2019-12-03T23:00:00.000Z</updated>
-        <content type="html"><![CDATA[In this episode we discuss some recent news regarding encryption laws, and the DHS updating the CWE Top 25 list. Then move into a handful of exploits before ending with some discussions about defending and attacking machine learning systems.]]></content>
     </entry>
 </feed>

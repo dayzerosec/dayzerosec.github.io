@@ -7,6 +7,13 @@
     "icon": "https://dayzerosec.com/zero_square.png",
     "items": [
         {
+            "id": "https://dayzerosec.com/posts/episode-43/",
+            "content_html": "A quick chat about E2E Crypto and Zoom, followed by a few noteworth exploits including Bluetooth impersonation, a 15-year old qmail CVE, NordVPN, and an RCE in Google. Ending with some mitigation research looking at making singlely linked lists safe, XSS prevention, and Code-Reuse Gadgets.",
+            "url": "https://dayzerosec.com/posts/episode-43/",
+            "title": "Episode 43 - Zoom E2E, 15 year old bugs, and killing 20 year old attacks",
+            "date_modified": "2020-05-26T22:00:00.000Z"
+        },
+        {
             "id": "https://dayzerosec.com/posts/adventures-of-porting-musl-to-ps4/",
             "content_html": "Over the last year or so, I've been working with the OpenOrbis team to develop a toolchain for building homebrew for the PS4, and one of the challenges we faced was porting a proper libc to the console. This article dives into some of the interesting lessons learned while porting MUSL to the PS4.",
             "url": "https://dayzerosec.com/posts/adventures-of-porting-musl-to-ps4/",
@@ -173,13 +180,6 @@
             "url": "https://dayzerosec.com/posts/episode-20/",
             "title": "Episode 21 - Permanent DoS, HackerOne Hacked, and Wide-OpenBSD",
             "date_modified": "2019-12-10T23:00:00.000Z"
-        },
-        {
-            "id": "https://dayzerosec.com/posts/episode-20-cwe-top-25-hacking-anti-viruses-and-adversarial-machine-learning-attacks/",
-            "content_html": "In this episode we discuss some recent news regarding encryption laws, and the DHS updating the CWE Top 25 list. Then move into a handful of exploits before ending with some discussions about defending and attacking machine learning systems.",
-            "url": "https://dayzerosec.com/posts/episode-20-cwe-top-25-hacking-anti-viruses-and-adversarial-machine-learning-attacks/",
-            "title": "Episode 20 - CWE Top 25, Hacking Anti-Viruses and Adversarial Machine Learning Attacks",
-            "date_modified": "2019-12-03T23:00:00.000Z"
         }
     ]
 }
