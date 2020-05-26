@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://dayzerosec.com/</id>
+    <title>DAY[0]</title>
+    <updated>2020-05-26T02:13:15.091Z</updated>
+    <generator>Gridsome Feed Plugin</generator>
+    <link rel="alternate" href="https://dayzerosec.com/"/>
+    <link rel="self" href="https://dayzerosec.com/feed.atom"/>
+    <subtitle>Zero Days for Day Zero</subtitle>
+    <logo>https://dayzerosec.com/zero_square.png</logo>
+    <entry>
+        <title type="html"><![CDATA[Adventures of porting MUSL to PS4]]></title>
+        <id>https://dayzerosec.com/posts/adventures-of-porting-musl-to-ps4/</id>
+        <link href="https://dayzerosec.com/posts/adventures-of-porting-musl-to-ps4/"/>
+        <updated>2020-05-24T00:45:00.000Z</updated>
+        <content type="html"><![CDATA[Over the last year or so, I've been working with the OpenOrbis team to develop a toolchain for building homebrew for the PS4, and one of the challenges we faced was porting a proper libc to the console. This article dives into some of the interesting lessons learned while porting MUSL to the PS4.]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Episode 42 - iOS 0days are worthless, PrintDemon, and a takeover of hackerone]]></title>
+        <id>https://dayzerosec.com/posts/episode-42/</id>
+        <link href="https://dayzerosec.com/posts/episode-42/"/>
+        <updated>2020-05-19T22:00:00.000Z</updated>
+        <content type="html"><![CDATA[Are iOS 0days now worthless? Can you hack a satellite...or hackerone? Are WAFs worthwhile? And more on a fairly discussion heavy episode of DAY[0].]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Episode 41-  Defcon is canceled, Microsoft was hacked, Rust has vulns]]></title>
+        <id>https://dayzerosec.com/posts/episode-41/</id>
+        <link href="https://dayzerosec.com/posts/episode-41/"/>
+        <updated>2020-05-12T22:00:00.000Z</updated>
+        <content type="html"><![CDATA[It was a busy week, Microsofts Github account was hacked, Centurylink Routers have no security, and multiple interactionless RCEs in Samsung phones.]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Episode 40 - Auth Bypass, XSS, RCE and more]]></title>
+        <id>https://dayzerosec.com/posts/episode-40/</id>
+        <link href="https://dayzerosec.com/posts/episode-40/"/>
+        <updated>2020-05-05T22:00:00.000Z</updated>
+        <content type="html"><![CDATA[Authentication bypasses, SQL injection, command injection, and more in this web-exploit heavy episode.]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Episode 39 - Relyze Decompiler, jQuery XSS, Sandbox Escaping and 0-Click Mail RCE]]></title>
+        <id>https://dayzerosec.com/posts/episode-39/</id>
+        <link href="https://dayzerosec.com/posts/episode-39/"/>
+        <updated>2020-04-28T22:44:00.000Z</updated>
+        <content type="html"><![CDATA[Since we forgot to cover it when it came out, we look at Relyze's new decompiler that is available on the free version. There is also some sandbox escaping, some crypto issues (AMD's SME/SEV) and even some IBM 0days.]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Episode 38 - Binary Ninja's Decompiler, git credential leak, cross-platform LPEs]]></title>
+        <id>https://dayzerosec.com/posts/episode-38/</id>
+        <link href="https://dayzerosec.com/posts/episode-38/"/>
+        <updated>2020-04-21T22:00:00.000Z</updated>
+        <content type="html"><![CDATA[Zoom vuln worth $500k? Probably not... What is worth $500k? Binary Ninja's new decompiler...okay probably not but it is exciting.We've also got some stupid issues and some interesting LPEs this episode.
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Episode 37 - IDA...Go home, Sandboxie source, and some RCEs (TP-Link, Starcraft 1, OhMyZsh)]]></title>
+        <id>https://dayzerosec.com/posts/episode-37/</id>
+        <link href="https://dayzerosec.com/posts/episode-37/"/>
+        <updated>2020-04-15T02:11:00.000Z</updated>
+        <content type="html"><![CDATA[Starting off the week with a discussion about the disappointing IDA Home, before moving into a few easy command injections, code-reuse attacks applied to XSS, detecting trojaned hardware and ending with a subtle crypto-bug.]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Episode 36 - Zoom-ers, VM Escapes, and Pegasus Resurfaces]]></title>
+        <id>https://dayzerosec.com/posts/episode-36/</id>
+        <link href="https://dayzerosec.com/posts/episode-36/"/>
+        <updated>2020-04-08T01:49:00.000Z</updated>
+        <content type="html"><![CDATA[First, we talk about Facebook trying to buy some spyware, and then we feast upon a number of Zoom "vulns." Follow that up wtih some interesting vulnerabilities including a hyper-visor Guest-to-host escape, a complicated Safari permissions bypass, and a Gitlab Parser Differential.]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Episode 35 - A shortcut (.lnk) to RCE, Pi-Hole, Shadow Stacks, and fine-grained kASLR]]></title>
+        <id>https://dayzerosec.com/posts/episode-35/</id>
+        <link href="https://dayzerosec.com/posts/episode-35/"/>
+        <updated>2020-03-31T22:00:00.000Z</updated>
+        <content type="html"><![CDATA[Is there a shortcut to RCE? Well, on Windows .LNK files could be just that. We also talk about a few others vulnerabilities impacting Windows, Pi-Hole and Netflix. And end by looking at Window's new hardware enforced Shadow Stack and a proof-of-concept for fine-grained kASLR on Linux.]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Episode 34 - Pwn2Own Results, Voatz (again), some web-exploits and a code-reuse mitigation]]></title>
+        <id>https://dayzerosec.com/posts/episode-34/</id>
+        <link href="https://dayzerosec.com/posts/episode-34/"/>
+        <updated>2020-03-24T23:00:00.000Z</updated>
+        <content type="html"><![CDATA[More discussion about election hacking with Voatz undergoing a more complete security assessment, we also discuss a few interesting web attacks and end with a good discussion about a new code-reuse mitigation: Hurdle.]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Episode 33 - How to Hack a CTF and more (LVI, TRRespass and some web-exploits)]]></title>
+        <id>https://dayzerosec.com/posts/episode-33/</id>
+        <link href="https://dayzerosec.com/posts/episode-33/"/>
+        <updated>2020-03-17T23:00:00.000Z</updated>
+        <content type="html"><![CDATA[Start off by looking at a few Google Cloud attacks, a couple named vulns (LVI: Load Value Injection, and TRRespass) and then into some web-focused exploits including how to hack a CTF.]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Learn Exploit Development While Not Dying from COVID-19]]></title>
+        <id>https://dayzerosec.com/posts/learn-exploit-development-while-not-dying-from-covid-19/</id>
+        <link href="https://dayzerosec.com/posts/learn-exploit-development-while-not-dying-from-covid-19/"/>
+        <updated>2020-03-17T09:33:57.000Z</updated>
+        <content type="html"><![CDATA[With so many countries recommending self-isolation in the past little while we
+thought it might be useful to recommend some excellent learning resources to
+help enable you make the most of the extra time you might find yourself with.
+
+These are generally solid resources that will also be entertaining and engaging
+to work through and a focus on beginner friendly resources.
+
+We've also put out a Youtube video discussing all of these points along with
+some side discussion about stuff like whether o]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Episode 32 - FuzzBench, MediaTek-su, Request Smuggling, and Memory Tagging]]></title>
+        <id>https://dayzerosec.com/posts/episode-32/</id>
+        <link href="https://dayzerosec.com/posts/episode-32/"/>
+        <updated>2020-03-10T22:00:00.000Z</updated>
+        <content type="html"><![CDATA[A New AMD sidechannel, and an old Intel CSME attack, a couple deserialization attacks, and a few clever but not terribly useful attacks, and some discussion about memory tagging on this weeks episode of DAY[0].]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Episode 31 - One-Two-Three Named Vulns (kr00k, Forgot2kEyXCHANGE, GhostCat) and more OpenSMTPD and Samsung Vulnerabilities]]></title>
+        <id>https://dayzerosec.com/posts/episode-31/</id>
+        <link href="https://dayzerosec.com/posts/episode-31/"/>
+        <updated>2020-03-03T23:00:00.000Z</updated>
+        <content type="html"><![CDATA[Join Specter and zi at they discuss several named vulns (kr00k, Forgot2kEyXCHANGE, GhostCat), the benefits of DNS-over-HTTPS, and a a few vulns in some of our regular targets: Samsung drivers, NordVPN, OpenSMTPd.]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Episode 30 - A Dark White-Hat hacker? and various vulns ft. Cisco, Periscope, NordVPN and Tesla/EyeQ]]></title>
+        <id>https://dayzerosec.com/posts/episode-30/</id>
+        <link href="https://dayzerosec.com/posts/episode-30/"/>
+        <updated>2020-02-25T23:00:00.000Z</updated>
+        <content type="html"><![CDATA[Keeping up our streak, we talk about some vulnerabilities in Cisco, NordVPN and Tesla, and about SlickWraps being hacked by a very dark, white-hat.]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Episode #29 - A New PWK/OSCP, Election Hacking, Kernel Exploits, and Fuzzing]]></title>
+        <id>https://dayzerosec.com/posts/episode-29/</id>
+        <link href="https://dayzerosec.com/posts/episode-29/"/>
+        <updated>2020-02-18T23:00:00.000Z</updated>
+        <content type="html"><![CDATA[Is the new OSCP worth-it? Can election apps be made secure? We'll talk about those questions and several kernel exploits and a few cool fuzzing innovations.]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Episode #28 - Hack Twitter, WhatsApp and all your Cisco phones (CDPwn) ft. GhostKnight]]></title>
+        <id>https://dayzerosec.com/posts/episode-28/</id>
+        <link href="https://dayzerosec.com/posts/episode-28/"/>
+        <updated>2020-02-11T23:00:00.000Z</updated>
+        <content type="html"><![CDATA[Android, Bluetooth, Microsoft, NordVPN, Twitter, WhatsApp, Cisco, vulns for days impacting several big names and a couple new attack ideas, blind regex injection and GhostKnight a technique to breach data integrity using speculative execution.]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Episode #27 - Ok Google, sudo ./hacktheplanet]]></title>
+        <id>https://dayzerosec.com/posts/episode-27/</id>
+        <link href="https://dayzerosec.com/posts/episode-27/"/>
+        <updated>2020-02-04T23:00:00.000Z</updated>
+        <content type="html"><![CDATA[Ok Google! Bypass authentication..and while we're at it, lets explot sudo and OpenSMPTD for root access. This week we dive into various code bases to explore several recent exploits that take advantage of some common yet subtle issues.]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Episode 26 - Return of the Zombieload, Bezos Hacked, and other exploits]]></title>
+        <id>https://dayzerosec.com/posts/episode-26/</id>
+        <link href="https://dayzerosec.com/posts/episode-26/"/>
+        <updated>2020-01-28T23:00:00.000Z</updated>
+        <content type="html"><![CDATA[This week we look at 15 CVEs this week including the new MDS Attacks/Zombieload and GhostImage a cool attack against vision-based classification systems. We also have discussion about mobile vs desktop security.]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Episode 25 - Project Verona, CurveBall, CableHaunt, and RCEs-a-plenty]]></title>
+        <id>https://dayzerosec.com/posts/episode-25/</id>
+        <link href="https://dayzerosec.com/posts/episode-25/"/>
+        <updated>2020-01-21T23:00:00.000Z</updated>
+        <content type="html"><![CDATA[Start off with some discussions about Google, privacy, Rust, and entitlement within open-source software. Then we look at some of the big vulns of the past week including CurveBall, CabelHaunt, and an RDP RCE.]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Episode 24 - SHA-mbles, Shitrix, Responsible Disclosure, and wtf is TikTok doing.]]></title>
+        <id>https://dayzerosec.com/posts/episode-24/</id>
+        <link href="https://dayzerosec.com/posts/episode-24/"/>
+        <updated>2020-01-14T23:00:00.000Z</updated>
+        <content type="html"><![CDATA[Start off with zi fumbling to describe Sha-mbles, but quickly get into our groove as we discuss #Shitrix, Responsible Disclosure, and other exploits.]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Episode 23 - First Edge bounty, Hacking Tesla, Cisco advisories, and Shadow Clones]]></title>
+        <id>https://dayzerosec.com/posts/episode-23/</id>
+        <link href="https://dayzerosec.com/posts/episode-23/"/>
+        <updated>2020-01-07T23:00:00.000Z</updated>
+        <content type="html"><![CDATA[First episode of the decade! First, CCC then some Kali news and all the technical details we can find behind several issues impacting the new Edge browser, Teslas, Cisco DC Network Manager, and others. Ending off with a discussion about a Data-Oriented Programming attack mitigation: Shadow clones.]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Episode 22 - PlunderVolt, Real-World Bug Hunting, Presidents Cup CTF, SockPuppet and more]]></title>
+        <id>https://dayzerosec.com/posts/episode-22/</id>
+        <link href="https://dayzerosec.com/posts/episode-22/"/>
+        <updated>2019-12-17T23:00:00.000Z</updated>
+        <content type="html"><![CDATA[Starting off the episode is a quick review of Real-World Bug Hunting before moving into this week's news and the Plundervolt vulnerability.]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Episode 21 - Permanent DoS, HackerOne Hacked, and Wide-OpenBSD]]></title>
+        <id>https://dayzerosec.com/posts/episode-20/</id>
+        <link href="https://dayzerosec.com/posts/episode-20/"/>
+        <updated>2019-12-10T23:00:00.000Z</updated>
+        <content type="html"><![CDATA[Permanent Android DoS vulnerability, snooping on VPN traffic, value of anti-viruses, contact-less payment vulnerabilities, and more in this episode of DAY[0]]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Episode 20 - CWE Top 25, Hacking Anti-Viruses and Adversarial Machine Learning Attacks]]></title>
+        <id>https://dayzerosec.com/posts/episode-20-cwe-top-25-hacking-anti-viruses-and-adversarial-machine-learning-attacks/</id>
+        <link href="https://dayzerosec.com/posts/episode-20-cwe-top-25-hacking-anti-viruses-and-adversarial-machine-learning-attacks/"/>
+        <updated>2019-12-03T23:00:00.000Z</updated>
+        <content type="html"><![CDATA[In this episode we discuss some recent news regarding encryption laws, and the DHS updating the CWE Top 25 list. Then move into a handful of exploits before ending with some discussions about defending and attacking machine learning systems.]]></content>
+    </entry>
+</feed>
